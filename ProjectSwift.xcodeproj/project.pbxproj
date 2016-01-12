@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		42530AE8BA97A61BE44E4E52 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601F6101F52CE2BCDAC3592D /* Pods.framework */; };
+		94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E851C448D7F000D3FF4 /* checkYear@2x.png */; };
+		94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E861C448D7F000D3FF4 /* checkYear@3x.png */; };
+		94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E891C448D95000D3FF4 /* promise@2x.png */; };
+		94712E8C1C448D95000D3FF4 /* promise@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E8A1C448D95000D3FF4 /* promise@3x.png */; };
+		94712E8F1C448DA7000D3FF4 /* shareHasPresent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E8D1C448DA7000D3FF4 /* shareHasPresent@2x.png */; };
+		94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E8E1C448DA7000D3FF4 /* shareHasPresent@2x@3x.png */; };
+		94712E921C448DBF000D3FF4 /* bannerCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E911C448DBF000D3FF4 /* bannerCheck@2x.png */; };
 		94E09D9E1C439A650097EE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E09D9D1C439A650097EE9D /* AppDelegate.swift */; };
 		94E09DA01C439A650097EE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E09D9F1C439A650097EE9D /* ViewController.swift */; };
 		94E09DA31C439A650097EE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E09DA11C439A650097EE9D /* Main.storyboard */; };
@@ -32,6 +39,13 @@
 		274E22004318073A7AAB8C13 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		601F6101F52CE2BCDAC3592D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FD65309251828E09007519 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		94712E851C448D7F000D3FF4 /* checkYear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@2x.png"; sourceTree = "<group>"; };
+		94712E861C448D7F000D3FF4 /* checkYear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@3x.png"; sourceTree = "<group>"; };
+		94712E891C448D95000D3FF4 /* promise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "promise@2x.png"; sourceTree = "<group>"; };
+		94712E8A1C448D95000D3FF4 /* promise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "promise@3x.png"; sourceTree = "<group>"; };
+		94712E8D1C448DA7000D3FF4 /* shareHasPresent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareHasPresent@2x.png"; sourceTree = "<group>"; };
+		94712E8E1C448DA7000D3FF4 /* shareHasPresent@2x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareHasPresent@2x@3x.png"; sourceTree = "<group>"; };
+		94712E911C448DBF000D3FF4 /* bannerCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerCheck@2x.png"; sourceTree = "<group>"; };
 		94E09D9A1C439A650097EE9D /* ProjectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E09D9D1C439A650097EE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E09D9F1C439A650097EE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +95,20 @@
 				60FD65309251828E09007519 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		94712E841C448D6D000D3FF4 /* HomeBanner */ = {
+			isa = PBXGroup;
+			children = (
+				94712E851C448D7F000D3FF4 /* checkYear@2x.png */,
+				94712E861C448D7F000D3FF4 /* checkYear@3x.png */,
+				94712E891C448D95000D3FF4 /* promise@2x.png */,
+				94712E8A1C448D95000D3FF4 /* promise@3x.png */,
+				94712E8D1C448DA7000D3FF4 /* shareHasPresent@2x.png */,
+				94712E8E1C448DA7000D3FF4 /* shareHasPresent@2x@3x.png */,
+				94712E911C448DBF000D3FF4 /* bannerCheck@2x.png */,
+			);
+			path = HomeBanner;
 			sourceTree = "<group>";
 		};
 		94E09D911C439A650097EE9D = {
@@ -147,6 +175,7 @@
 		94E09DBC1C43B2430097EE9D /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				94712E841C448D6D000D3FF4 /* HomeBanner */,
 				94E09DBD1C43B2570097EE9D /* checkCar22@2x.png */,
 				94E09DBE1C43B2570097EE9D /* checkCar22@3x.png */,
 				94E09DC11C43B26C0097EE9D /* iAgency22@2x.png */,
@@ -221,17 +250,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E09DA81C439A650097EE9D /* LaunchScreen.storyboard in Resources */,
+				94712E8F1C448DA7000D3FF4 /* shareHasPresent@2x.png in Resources */,
+				94712E8C1C448D95000D3FF4 /* promise@3x.png in Resources */,
+				94712E921C448DBF000D3FF4 /* bannerCheck@2x.png in Resources */,
 				94E09DC31C43B26C0097EE9D /* iAgency22@2x.png in Resources */,
 				94E09DC71C43B2850097EE9D /* acci22@2x.png in Resources */,
 				94E09DB21C439D9B0097EE9D /* BaseViewController.xib in Resources */,
+				94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */,
 				94E09DC01C43B2570097EE9D /* checkCar22@3x.png in Resources */,
 				94E09DCB1C43B29B0097EE9D /* NewActive22@2x.png in Resources */,
 				94E09DBF1C43B2570097EE9D /* checkCar22@2x.png in Resources */,
 				94E09DBB1C43A5D10097EE9D /* HomeViewController.xib in Resources */,
+				94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */,
+				94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */,
 				94E09DCC1C43B29B0097EE9D /* NewActive22@3x.png in Resources */,
 				94E09DC81C43B2850097EE9D /* acci22@3x.png in Resources */,
 				94E09DC41C43B26C0097EE9D /* iAgency22@3x.png in Resources */,
 				94E09DA51C439A650097EE9D /* Assets.xcassets in Resources */,
+				94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */,
 				94E09DA31C439A650097EE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
