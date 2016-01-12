@@ -15,6 +15,11 @@
 		94712E8F1C448DA7000D3FF4 /* shareHasPresent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E8D1C448DA7000D3FF4 /* shareHasPresent@2x.png */; };
 		94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E8E1C448DA7000D3FF4 /* shareHasPresent@2x@3x.png */; };
 		94712E921C448DBF000D3FF4 /* bannerCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E911C448DBF000D3FF4 /* bannerCheck@2x.png */; };
+		94712E941C449A92000D3FF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94712E931C449A92000D3FF4 /* CoreGraphics.framework */; };
+		94712E961C44A3B4000D3FF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94712E951C44A3B4000D3FF4 /* QuartzCore.framework */; };
+		94712E991C44A40C000D3FF4 /* UIKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94712E981C44A40C000D3FF4 /* UIKitClass.swift */; };
+		94712E9D1C44F02E000D3FF4 /* logoNew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E9B1C44F02E000D3FF4 /* logoNew@2x.png */; };
+		94712E9E1C44F02E000D3FF4 /* logoNew@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E9C1C44F02E000D3FF4 /* logoNew@3x.png */; };
 		94E09D9E1C439A650097EE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E09D9D1C439A650097EE9D /* AppDelegate.swift */; };
 		94E09DA01C439A650097EE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E09D9F1C439A650097EE9D /* ViewController.swift */; };
 		94E09DA31C439A650097EE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E09DA11C439A650097EE9D /* Main.storyboard */; };
@@ -46,6 +51,12 @@
 		94712E8D1C448DA7000D3FF4 /* shareHasPresent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareHasPresent@2x.png"; sourceTree = "<group>"; };
 		94712E8E1C448DA7000D3FF4 /* shareHasPresent@2x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shareHasPresent@2x@3x.png"; sourceTree = "<group>"; };
 		94712E911C448DBF000D3FF4 /* bannerCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerCheck@2x.png"; sourceTree = "<group>"; };
+		94712E931C449A92000D3FF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94712E951C44A3B4000D3FF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94712E981C44A40C000D3FF4 /* UIKitClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitClass.swift; sourceTree = "<group>"; };
+		94712E9A1C44A525000D3FF4 /* HeaderBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderBridge.h; sourceTree = "<group>"; };
+		94712E9B1C44F02E000D3FF4 /* logoNew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoNew@2x.png"; sourceTree = "<group>"; };
+		94712E9C1C44F02E000D3FF4 /* logoNew@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoNew@3x.png"; sourceTree = "<group>"; };
 		94E09D9A1C439A650097EE9D /* ProjectSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E09D9D1C439A650097EE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E09D9F1C439A650097EE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94712E961C44A3B4000D3FF4 /* QuartzCore.framework in Frameworks */,
+				94712E941C449A92000D3FF4 /* CoreGraphics.framework in Frameworks */,
 				42530AE8BA97A61BE44E4E52 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +96,8 @@
 		048CFB6D59CC62AA15FAEDB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94712E951C44A3B4000D3FF4 /* QuartzCore.framework */,
+				94712E931C449A92000D3FF4 /* CoreGraphics.framework */,
 				601F6101F52CE2BCDAC3592D /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -111,6 +126,14 @@
 			path = HomeBanner;
 			sourceTree = "<group>";
 		};
+		94712E971C44A3E4000D3FF4 /* UIKitClasses */ = {
+			isa = PBXGroup;
+			children = (
+				94712E981C44A40C000D3FF4 /* UIKitClass.swift */,
+			);
+			path = UIKitClasses;
+			sourceTree = "<group>";
+		};
 		94E09D911C439A650097EE9D = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +155,7 @@
 		94E09D9C1C439A650097EE9D /* ProjectSwift */ = {
 			isa = PBXGroup;
 			children = (
+				94712E971C44A3E4000D3FF4 /* UIKitClasses */,
 				94E09DB71C43A59D0097EE9D /* Home */,
 				94E09DB41C439DDE0097EE9D /* BaseVC */,
 				94E09DB31C439DBD0097EE9D /* NetManager */,
@@ -141,6 +165,7 @@
 				94E09DA41C439A650097EE9D /* Assets.xcassets */,
 				94E09DA61C439A650097EE9D /* LaunchScreen.storyboard */,
 				94E09DA91C439A650097EE9D /* Info.plist */,
+				94712E9A1C44A525000D3FF4 /* HeaderBridge.h */,
 				94E09DBC1C43B2430097EE9D /* Image */,
 			);
 			path = ProjectSwift;
@@ -175,6 +200,8 @@
 		94E09DBC1C43B2430097EE9D /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				94712E9B1C44F02E000D3FF4 /* logoNew@2x.png */,
+				94712E9C1C44F02E000D3FF4 /* logoNew@3x.png */,
 				94712E841C448D6D000D3FF4 /* HomeBanner */,
 				94E09DBD1C43B2570097EE9D /* checkCar22@2x.png */,
 				94E09DBE1C43B2570097EE9D /* checkCar22@3x.png */,
@@ -265,6 +292,8 @@
 				94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */,
 				94E09DCC1C43B29B0097EE9D /* NewActive22@3x.png in Resources */,
 				94E09DC81C43B2850097EE9D /* acci22@3x.png in Resources */,
+				94712E9D1C44F02E000D3FF4 /* logoNew@2x.png in Resources */,
+				94712E9E1C44F02E000D3FF4 /* logoNew@3x.png in Resources */,
 				94E09DC41C43B26C0097EE9D /* iAgency22@3x.png in Resources */,
 				94E09DA51C439A650097EE9D /* Assets.xcassets in Resources */,
 				94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */,
@@ -330,6 +359,7 @@
 				94E09DBA1C43A5D10097EE9D /* HomeViewController.swift in Sources */,
 				94E09DA01C439A650097EE9D /* ViewController.swift in Sources */,
 				94E09D9E1C439A650097EE9D /* AppDelegate.swift in Sources */,
+				94712E991C44A40C000D3FF4 /* UIKitClass.swift in Sources */,
 				94E09DB61C439E340097EE9D /* NetRequestManage.swift in Sources */,
 				94E09DB11C439D9B0097EE9D /* BaseViewController.swift in Sources */,
 			);
@@ -446,9 +476,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LangYue-China.ProjectSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ProjectSwift/HeaderBridge.h";
 			};
 			name = Debug;
 		};
@@ -458,9 +490,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LangYue-China.ProjectSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ProjectSwift/HeaderBridge.h";
 			};
 			name = Release;
 		};

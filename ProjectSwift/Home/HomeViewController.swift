@@ -10,8 +10,6 @@ import UIKit
 import SnapKit
 
 
-
-
 let rowHeight : CGFloat = 117
 
 
@@ -89,6 +87,8 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         pageControl.numberOfPages = bannerAry.count
         pageControl.center = CGPointMake(self.view.center.x, 140)
         self.tabView.addSubview(pageControl)
+        
+        
         
         
         // Do any additional setup after loading the view.
