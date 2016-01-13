@@ -8,14 +8,57 @@
 
 import UIKit
 
-class PersonalCenterVC: BaseViewController {
+class PersonalCenterVC: BaseViewController,UITableViewDelegate,UITableViewDataSource {
 
+    
+    @IBOutlet weak var tabView: UITableView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        self.initUI()
+        
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    
+    func initUI(){
+        
+        tabView.delegate = self
+        tabView.dataSource = self
+        
+    }
+    
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier("ID") as? PersonCenterItemCell
+        
+        if cell == nil {
+            cell = NSBundle.mainBundle().loadNibNamed("PersonCenterItemCell", owner: nil, options: nil).last as? PersonCenterItemCell
+        }
+        
+        return cell!
+    }
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 90
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

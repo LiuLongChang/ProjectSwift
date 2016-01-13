@@ -21,6 +21,8 @@
 		9443A3E41C464484004CA1BD /* userCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E31C464484004CA1BD /* userCenter@2x.png */; };
 		9443A3E71C464702004CA1BD /* PersonalCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3E51C464702004CA1BD /* PersonalCenterVC.swift */; };
 		9443A3E81C464702004CA1BD /* PersonalCenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */; };
+		9443A3EC1C464D4D004CA1BD /* PersonCenterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3EA1C464D4D004CA1BD /* PersonCenterItemCell.swift */; };
+		9443A3ED1C464D4D004CA1BD /* PersonCenterItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */; };
 		94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E851C448D7F000D3FF4 /* checkYear@2x.png */; };
 		94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E861C448D7F000D3FF4 /* checkYear@3x.png */; };
 		94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E891C448D95000D3FF4 /* promise@2x.png */; };
@@ -70,6 +72,8 @@
 		9443A3E31C464484004CA1BD /* userCenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userCenter@2x.png"; sourceTree = "<group>"; };
 		9443A3E51C464702004CA1BD /* PersonalCenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCenterVC.swift; sourceTree = "<group>"; };
 		9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterVC.xib; sourceTree = "<group>"; };
+		9443A3EA1C464D4D004CA1BD /* PersonCenterItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterItemCell.swift; sourceTree = "<group>"; };
+		9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCenterItemCell.xib; sourceTree = "<group>"; };
 		94712E851C448D7F000D3FF4 /* checkYear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@2x.png"; sourceTree = "<group>"; };
 		94712E861C448D7F000D3FF4 /* checkYear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@3x.png"; sourceTree = "<group>"; };
 		94712E891C448D95000D3FF4 /* promise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "promise@2x.png"; sourceTree = "<group>"; };
@@ -136,6 +140,15 @@
 				60FD65309251828E09007519 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9443A3E91C464D1F004CA1BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9443A3EA1C464D4D004CA1BD /* PersonCenterItemCell.swift */,
+				9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		94712E841C448D6D000D3FF4 /* HomeBanner */ = {
@@ -217,6 +230,7 @@
 		94E09DB71C43A59D0097EE9D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9443A3E91C464D1F004CA1BD /* View */,
 				94E09DB81C43A5D10097EE9D /* HomeViewController.swift */,
 				94E09DB91C43A5D10097EE9D /* HomeViewController.xib */,
 				9443A3CF1C464025004CA1BD /* AnnualVehicleVC.swift */,
@@ -337,6 +351,7 @@
 				9443A3DE1C46410B004CA1BD /* LatestActivitiesVC.xib in Resources */,
 				9443A3E21C464323004CA1BD /* tss_nav_left_detail@3x.png in Resources */,
 				94E09DCC1C43B29B0097EE9D /* NewActive22@3x.png in Resources */,
+				9443A3ED1C464D4D004CA1BD /* PersonCenterItemCell.xib in Resources */,
 				94E09DC81C43B2850097EE9D /* acci22@3x.png in Resources */,
 				94712E9D1C44F02E000D3FF4 /* logoNew@2x.png in Resources */,
 				94712E9E1C44F02E000D3FF4 /* logoNew@3x.png in Resources */,
@@ -411,6 +426,7 @@
 				9443A3DD1C46410B004CA1BD /* LatestActivitiesVC.swift in Sources */,
 				9443A3D91C4640D8004CA1BD /* AccidentCustodyVC.swift in Sources */,
 				9443A3D11C464025004CA1BD /* AnnualVehicleVC.swift in Sources */,
+				9443A3EC1C464D4D004CA1BD /* PersonCenterItemCell.swift in Sources */,
 				94712E991C44A40C000D3FF4 /* UIKitClass.swift in Sources */,
 				94E09DB61C439E340097EE9D /* NetRequestManage.swift in Sources */,
 				94E09DB11C439D9B0097EE9D /* BaseViewController.swift in Sources */,
