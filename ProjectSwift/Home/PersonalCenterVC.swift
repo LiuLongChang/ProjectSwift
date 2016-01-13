@@ -32,6 +32,14 @@ class PersonalCenterVC: BaseViewController,UITableViewDelegate,UITableViewDataSo
         tabView.delegate = self
         tabView.dataSource = self
         
+        tabView.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(20)
+            make.left.equalTo(0)
+            make.right.equalTo(0)
+            make.bottom.equalTo(0)
+        }
+        
+        
     }
     
     
@@ -54,7 +62,7 @@ class PersonalCenterVC: BaseViewController,UITableViewDelegate,UITableViewDataSo
     
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 90
+        return 200
     }
     
     

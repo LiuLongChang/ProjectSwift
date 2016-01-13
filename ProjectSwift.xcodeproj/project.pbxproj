@@ -23,6 +23,18 @@
 		9443A3E81C464702004CA1BD /* PersonalCenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */; };
 		9443A3EC1C464D4D004CA1BD /* PersonCenterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3EA1C464D4D004CA1BD /* PersonCenterItemCell.swift */; };
 		9443A3ED1C464D4D004CA1BD /* PersonCenterItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */; };
+		9443A3F01C46521B004CA1BD /* myBill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3EE1C46521B004CA1BD /* myBill@2x.png */; };
+		9443A3F11C46521B004CA1BD /* myBill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3EF1C46521B004CA1BD /* myBill@3x.png */; };
+		9443A3F41C46523E004CA1BD /* addCar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3F21C46523E004CA1BD /* addCar@2x.png */; };
+		9443A3F51C46523E004CA1BD /* addCar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3F31C46523E004CA1BD /* addCar@3x.png */; };
+		9443A3F81C46525B004CA1BD /* orgSel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3F61C46525B004CA1BD /* orgSel@2x.png */; };
+		9443A3F91C46525B004CA1BD /* orgSel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3F71C46525B004CA1BD /* orgSel@3x.png */; };
+		9443A3FC1C465271004CA1BD /* coupons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3FA1C465271004CA1BD /* coupons@2x.png */; };
+		9443A3FD1C465271004CA1BD /* coupons@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3FB1C465271004CA1BD /* coupons@3x.png */; };
+		9443A4001C46528C004CA1BD /* autoTreas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3FE1C46528C004CA1BD /* autoTreas@2x.png */; };
+		9443A4011C46528C004CA1BD /* autoTreas@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3FF1C46528C004CA1BD /* autoTreas@3x.png */; };
+		9443A4041C4652A5004CA1BD /* centerMore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A4021C4652A5004CA1BD /* centerMore@2x.png */; };
+		9443A4051C4652A5004CA1BD /* centerMore@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A4031C4652A5004CA1BD /* centerMore@3x.png */; };
 		94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E851C448D7F000D3FF4 /* checkYear@2x.png */; };
 		94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E861C448D7F000D3FF4 /* checkYear@3x.png */; };
 		94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E891C448D95000D3FF4 /* promise@2x.png */; };
@@ -74,6 +86,18 @@
 		9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterVC.xib; sourceTree = "<group>"; };
 		9443A3EA1C464D4D004CA1BD /* PersonCenterItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterItemCell.swift; sourceTree = "<group>"; };
 		9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCenterItemCell.xib; sourceTree = "<group>"; };
+		9443A3EE1C46521B004CA1BD /* myBill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "myBill@2x.png"; path = "../myBill@2x.png"; sourceTree = "<group>"; };
+		9443A3EF1C46521B004CA1BD /* myBill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "myBill@3x.png"; path = "../myBill@3x.png"; sourceTree = "<group>"; };
+		9443A3F21C46523E004CA1BD /* addCar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addCar@2x.png"; path = "../addCar@2x.png"; sourceTree = "<group>"; };
+		9443A3F31C46523E004CA1BD /* addCar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addCar@3x.png"; path = "../addCar@3x.png"; sourceTree = "<group>"; };
+		9443A3F61C46525B004CA1BD /* orgSel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orgSel@2x.png"; path = "../orgSel@2x.png"; sourceTree = "<group>"; };
+		9443A3F71C46525B004CA1BD /* orgSel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orgSel@3x.png"; path = "../orgSel@3x.png"; sourceTree = "<group>"; };
+		9443A3FA1C465271004CA1BD /* coupons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coupons@2x.png"; path = "../coupons@2x.png"; sourceTree = "<group>"; };
+		9443A3FB1C465271004CA1BD /* coupons@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coupons@3x.png"; path = "../coupons@3x.png"; sourceTree = "<group>"; };
+		9443A3FE1C46528C004CA1BD /* autoTreas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "autoTreas@2x.png"; path = "../autoTreas@2x.png"; sourceTree = "<group>"; };
+		9443A3FF1C46528C004CA1BD /* autoTreas@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "autoTreas@3x.png"; path = "../autoTreas@3x.png"; sourceTree = "<group>"; };
+		9443A4021C4652A5004CA1BD /* centerMore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "centerMore@2x.png"; path = "../centerMore@2x.png"; sourceTree = "<group>"; };
+		9443A4031C4652A5004CA1BD /* centerMore@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "centerMore@3x.png"; path = "../centerMore@3x.png"; sourceTree = "<group>"; };
 		94712E851C448D7F000D3FF4 /* checkYear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@2x.png"; sourceTree = "<group>"; };
 		94712E861C448D7F000D3FF4 /* checkYear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@3x.png"; sourceTree = "<group>"; };
 		94712E891C448D95000D3FF4 /* promise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "promise@2x.png"; sourceTree = "<group>"; };
@@ -149,6 +173,25 @@
 				9443A3EB1C464D4D004CA1BD /* PersonCenterItemCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9443A4061C465366004CA1BD /* PerCenterItem */ = {
+			isa = PBXGroup;
+			children = (
+				9443A3EE1C46521B004CA1BD /* myBill@2x.png */,
+				9443A3EF1C46521B004CA1BD /* myBill@3x.png */,
+				9443A3F21C46523E004CA1BD /* addCar@2x.png */,
+				9443A3F31C46523E004CA1BD /* addCar@3x.png */,
+				9443A3F61C46525B004CA1BD /* orgSel@2x.png */,
+				9443A3F71C46525B004CA1BD /* orgSel@3x.png */,
+				9443A3FA1C465271004CA1BD /* coupons@2x.png */,
+				9443A3FB1C465271004CA1BD /* coupons@3x.png */,
+				9443A3FE1C46528C004CA1BD /* autoTreas@2x.png */,
+				9443A3FF1C46528C004CA1BD /* autoTreas@3x.png */,
+				9443A4021C4652A5004CA1BD /* centerMore@2x.png */,
+				9443A4031C4652A5004CA1BD /* centerMore@3x.png */,
+			);
+			path = PerCenterItem;
 			sourceTree = "<group>";
 		};
 		94712E841C448D6D000D3FF4 /* HomeBanner */ = {
@@ -250,6 +293,7 @@
 		94E09DBC1C43B2430097EE9D /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				9443A4061C465366004CA1BD /* PerCenterItem */,
 				9443A3E31C464484004CA1BD /* userCenter@2x.png */,
 				9443A3DF1C464323004CA1BD /* tss_nav_left_detail@2x.png */,
 				9443A3E01C464323004CA1BD /* tss_nav_left_detail@3x.png */,
@@ -338,20 +382,31 @@
 				9443A3DA1C4640D8004CA1BD /* AccidentCustodyVC.xib in Resources */,
 				94E09DC71C43B2850097EE9D /* acci22@2x.png in Resources */,
 				94E09DB21C439D9B0097EE9D /* BaseViewController.xib in Resources */,
+				9443A3F41C46523E004CA1BD /* addCar@2x.png in Resources */,
+				9443A3FC1C465271004CA1BD /* coupons@2x.png in Resources */,
 				94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */,
 				94E09DC01C43B2570097EE9D /* checkCar22@3x.png in Resources */,
+				9443A4001C46528C004CA1BD /* autoTreas@2x.png in Resources */,
 				9443A3E81C464702004CA1BD /* PersonalCenterVC.xib in Resources */,
 				94E09DCB1C43B29B0097EE9D /* NewActive22@2x.png in Resources */,
 				9443A3E41C464484004CA1BD /* userCenter@2x.png in Resources */,
+				9443A3FD1C465271004CA1BD /* coupons@3x.png in Resources */,
 				94E09DBF1C43B2570097EE9D /* checkCar22@2x.png in Resources */,
 				94E09DBB1C43A5D10097EE9D /* HomeViewController.xib in Resources */,
+				9443A4041C4652A5004CA1BD /* centerMore@2x.png in Resources */,
+				9443A4011C46528C004CA1BD /* autoTreas@3x.png in Resources */,
 				94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */,
 				94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */,
 				9443A3E11C464323004CA1BD /* tss_nav_left_detail@2x.png in Resources */,
+				9443A3F01C46521B004CA1BD /* myBill@2x.png in Resources */,
 				9443A3DE1C46410B004CA1BD /* LatestActivitiesVC.xib in Resources */,
+				9443A4051C4652A5004CA1BD /* centerMore@3x.png in Resources */,
 				9443A3E21C464323004CA1BD /* tss_nav_left_detail@3x.png in Resources */,
 				94E09DCC1C43B29B0097EE9D /* NewActive22@3x.png in Resources */,
+				9443A3F11C46521B004CA1BD /* myBill@3x.png in Resources */,
 				9443A3ED1C464D4D004CA1BD /* PersonCenterItemCell.xib in Resources */,
+				9443A3F81C46525B004CA1BD /* orgSel@2x.png in Resources */,
+				9443A3F51C46523E004CA1BD /* addCar@3x.png in Resources */,
 				94E09DC81C43B2850097EE9D /* acci22@3x.png in Resources */,
 				94712E9D1C44F02E000D3FF4 /* logoNew@2x.png in Resources */,
 				94712E9E1C44F02E000D3FF4 /* logoNew@3x.png in Resources */,
@@ -359,6 +414,7 @@
 				94E09DA51C439A650097EE9D /* Assets.xcassets in Resources */,
 				9443A3D21C464025004CA1BD /* AnnualVehicleVC.xib in Resources */,
 				94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */,
+				9443A3F91C46525B004CA1BD /* orgSel@3x.png in Resources */,
 				94E09DA31C439A650097EE9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
