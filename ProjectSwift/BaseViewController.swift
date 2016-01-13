@@ -47,13 +47,44 @@ class BaseViewController: UIViewController {
         self.navigationController?.navigationBar.translucent = false
         
         
-        let btn =  OBShapeButton(type: .Custom)
-        btn.setImage(UIImage(named: "logoNew"), forState: .Normal)
+        let btn =   OBShapeButton(type: .Custom)
+        btn.setBackgroundImage(UIImage(named: "logoNew"), forState: .Normal)
         self.navigationController?.navigationBar.addSubview(btn);
         btn.center = CGPointMake(ScreenWidth/2,42)
-        btn.bounds = CGRectMake(0, 0, 84, 73)
+        btn.bounds = CGRectMake(0, 0, 82, 73);
+        btn.userInteractionEnabled = true
         btn.addTarget(self, action: "homeBtnAction:", forControlEvents: .TouchUpInside)
         
+        
+        
+        let leftBtn = UIButton(type: .Custom)
+        leftBtn.frame = CGRectMake(0, 0, 17, 32)
+        leftBtn.setImage(UIImage(named: "tss_nav_left_detail"), forState: .Normal)
+        leftBtn.addTarget(self, action: "leftNavBtnAction", forControlEvents: .TouchUpInside)
+        let leftItem = UIBarButtonItem(customView: leftBtn)
+        self.navigationItem.leftBarButtonItem = leftItem
+        
+        
+        
+        let rightBtn = UIButton(type: .Custom)
+        rightBtn.frame = CGRectMake(ScreenWidth-63, 0, 63, 49)
+        rightBtn.setImage(UIImage(named: "userCenter"), forState: .Normal)
+        rightBtn.addTarget(self, action: "rightNavBtnAction", forControlEvents: .TouchUpInside)
+        let rightItem = UIBarButtonItem(customView: rightBtn)
+        self.navigationItem.rightBarButtonItem = rightItem
+        
+        
+        
+        
+    }
+    
+    
+    func leftNavBtnAction(){
+        self.navigationController?.popViewControllerAnimated(true)
+    }
+    
+    
+    func rightNavBtnAction(){
         
         
     }
@@ -61,10 +92,8 @@ class BaseViewController: UIViewController {
     
     
     func homeBtnAction(btn:UIButton){
-        
         print("点击了Home Btn");
     }
-    
     
     //指示器的开启和停止方法
     func activityIndicatorViewStart(view:UIView){

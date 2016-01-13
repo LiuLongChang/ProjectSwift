@@ -79,8 +79,12 @@ class OBShapeButton: UIButton {
         point.y *= (bSize.height != 0) ? (iSize.height / bSize.height) : 1
         let pixelColor = image.colorAtPixel(point)
         var alpha  = CGFloat(0.0)
-        if ((pixelColor?.respondsToSelector("getRed:green:blue:alpha:")) != nil){
-            pixelColor?.getRed(nil, green: nil, blue: nil, alpha: &alpha)
+        
+        
+        
+        if pixelColor?.respondsToSelector("getRed:green:blue:alpha:") == true {
+            pixelColor?.getRed(nil
+                , green: nil, blue: nil, alpha: &alpha)
         }else{
             let cgPixelColor = pixelColor?.CGColor
             alpha = CGColorGetAlpha(cgPixelColor)
@@ -171,11 +175,10 @@ class OBShapeButton: UIButton {
 
 extension UIImage {
     
-    //1.  启动页小人影子在正下方
     
     func colorAtPixel(point:CGPoint)->UIColor?{
         
-        if CGRectContainsPoint(CGRectMake(0.0, 0.0, self.size.width, self.size.height), point){
+        if CGRectContainsPoint(CGRectMake(0.0, 0.0, self.size.width, self.size.height), point) == false {
             return nil
         }
         
@@ -188,19 +191,20 @@ extension UIImage {
         let bytesPerPixel = 4
         let bytesPerRow = bytesPerPixel * 1
         let bitsPerComponent = 8
-        
         var  pixelData : [CGFloat] = [0,0,0,0]
+        
         let context = CGBitmapContextCreate(&pixelData, 1, 1, bitsPerComponent, bytesPerRow, colorSpace, CGImageAlphaInfo.PremultipliedLast.rawValue | CGBitmapInfo.ByteOrder32Big.rawValue)!
         
-        CGContextSetBlendMode(context, CGBlendMode.Copy)
         
+        
+        CGContextSetBlendMode(context, CGBlendMode.Copy)
         CGContextTranslateCTM(context, -pointX, CGFloat(pointY) - CGFloat(height))
         CGContextDrawImage(context, CGRectMake( 0.0, 0.0, CGFloat(width), CGFloat(height)), cgImage)
         
         let red = pixelData[0] / 255.0
         let green = pixelData[1] / 255.0
         let blue = pixelData[2] / 255.0
-        let alpha = pixelData[2] / 255.0
+        let alpha = pixelData[3] / 255.0
         
         return UIColor(red: red, green: green, blue: blue, alpha: alpha)
     }
@@ -225,7 +229,7 @@ extension UINavigationBar{
                         
                         let isAlpha : Bool = btn.isAlphaVisibleAtPoint(tp, image: UIImage(named: "logoNew")!)
                         
-                        if (isAlpha) {
+                        if (!isAlpha) {
                             
                             print("!isAlpha")
                             return nil

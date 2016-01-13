@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		42530AE8BA97A61BE44E4E52 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601F6101F52CE2BCDAC3592D /* Pods.framework */; };
+		9443A3D11C464025004CA1BD /* AnnualVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3CF1C464025004CA1BD /* AnnualVehicleVC.swift */; };
+		9443A3D21C464025004CA1BD /* AnnualVehicleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3D01C464025004CA1BD /* AnnualVehicleVC.xib */; };
+		9443A3D51C464087004CA1BD /* CarServiceAgentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3D31C464087004CA1BD /* CarServiceAgentVC.swift */; };
+		9443A3D61C464087004CA1BD /* CarServiceAgentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3D41C464087004CA1BD /* CarServiceAgentVC.xib */; };
+		9443A3D91C4640D8004CA1BD /* AccidentCustodyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3D71C4640D8004CA1BD /* AccidentCustodyVC.swift */; };
+		9443A3DA1C4640D8004CA1BD /* AccidentCustodyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3D81C4640D8004CA1BD /* AccidentCustodyVC.xib */; };
+		9443A3DD1C46410B004CA1BD /* LatestActivitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3DB1C46410B004CA1BD /* LatestActivitiesVC.swift */; };
+		9443A3DE1C46410B004CA1BD /* LatestActivitiesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3DC1C46410B004CA1BD /* LatestActivitiesVC.xib */; };
+		9443A3E11C464323004CA1BD /* tss_nav_left_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3DF1C464323004CA1BD /* tss_nav_left_detail@2x.png */; };
+		9443A3E21C464323004CA1BD /* tss_nav_left_detail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E01C464323004CA1BD /* tss_nav_left_detail@3x.png */; };
+		9443A3E41C464484004CA1BD /* userCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E31C464484004CA1BD /* userCenter@2x.png */; };
+		9443A3E71C464702004CA1BD /* PersonalCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A3E51C464702004CA1BD /* PersonalCenterVC.swift */; };
+		9443A3E81C464702004CA1BD /* PersonalCenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */; };
 		94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E851C448D7F000D3FF4 /* checkYear@2x.png */; };
 		94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E861C448D7F000D3FF4 /* checkYear@3x.png */; };
 		94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94712E891C448D95000D3FF4 /* promise@2x.png */; };
@@ -44,6 +57,19 @@
 		274E22004318073A7AAB8C13 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		601F6101F52CE2BCDAC3592D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FD65309251828E09007519 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9443A3CF1C464025004CA1BD /* AnnualVehicleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnualVehicleVC.swift; sourceTree = "<group>"; };
+		9443A3D01C464025004CA1BD /* AnnualVehicleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnualVehicleVC.xib; sourceTree = "<group>"; };
+		9443A3D31C464087004CA1BD /* CarServiceAgentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarServiceAgentVC.swift; sourceTree = "<group>"; };
+		9443A3D41C464087004CA1BD /* CarServiceAgentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarServiceAgentVC.xib; sourceTree = "<group>"; };
+		9443A3D71C4640D8004CA1BD /* AccidentCustodyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccidentCustodyVC.swift; sourceTree = "<group>"; };
+		9443A3D81C4640D8004CA1BD /* AccidentCustodyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccidentCustodyVC.xib; sourceTree = "<group>"; };
+		9443A3DB1C46410B004CA1BD /* LatestActivitiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestActivitiesVC.swift; sourceTree = "<group>"; };
+		9443A3DC1C46410B004CA1BD /* LatestActivitiesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LatestActivitiesVC.xib; sourceTree = "<group>"; };
+		9443A3DF1C464323004CA1BD /* tss_nav_left_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tss_nav_left_detail@2x.png"; sourceTree = "<group>"; };
+		9443A3E01C464323004CA1BD /* tss_nav_left_detail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tss_nav_left_detail@3x.png"; sourceTree = "<group>"; };
+		9443A3E31C464484004CA1BD /* userCenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userCenter@2x.png"; sourceTree = "<group>"; };
+		9443A3E51C464702004CA1BD /* PersonalCenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCenterVC.swift; sourceTree = "<group>"; };
+		9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterVC.xib; sourceTree = "<group>"; };
 		94712E851C448D7F000D3FF4 /* checkYear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@2x.png"; sourceTree = "<group>"; };
 		94712E861C448D7F000D3FF4 /* checkYear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkYear@3x.png"; sourceTree = "<group>"; };
 		94712E891C448D95000D3FF4 /* promise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "promise@2x.png"; sourceTree = "<group>"; };
@@ -193,6 +219,16 @@
 			children = (
 				94E09DB81C43A5D10097EE9D /* HomeViewController.swift */,
 				94E09DB91C43A5D10097EE9D /* HomeViewController.xib */,
+				9443A3CF1C464025004CA1BD /* AnnualVehicleVC.swift */,
+				9443A3D01C464025004CA1BD /* AnnualVehicleVC.xib */,
+				9443A3D31C464087004CA1BD /* CarServiceAgentVC.swift */,
+				9443A3D41C464087004CA1BD /* CarServiceAgentVC.xib */,
+				9443A3D71C4640D8004CA1BD /* AccidentCustodyVC.swift */,
+				9443A3D81C4640D8004CA1BD /* AccidentCustodyVC.xib */,
+				9443A3DB1C46410B004CA1BD /* LatestActivitiesVC.swift */,
+				9443A3DC1C46410B004CA1BD /* LatestActivitiesVC.xib */,
+				9443A3E51C464702004CA1BD /* PersonalCenterVC.swift */,
+				9443A3E61C464702004CA1BD /* PersonalCenterVC.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -200,6 +236,9 @@
 		94E09DBC1C43B2430097EE9D /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				9443A3E31C464484004CA1BD /* userCenter@2x.png */,
+				9443A3DF1C464323004CA1BD /* tss_nav_left_detail@2x.png */,
+				9443A3E01C464323004CA1BD /* tss_nav_left_detail@3x.png */,
 				94712E9B1C44F02E000D3FF4 /* logoNew@2x.png */,
 				94712E9C1C44F02E000D3FF4 /* logoNew@3x.png */,
 				94712E841C448D6D000D3FF4 /* HomeBanner */,
@@ -281,21 +320,29 @@
 				94712E8C1C448D95000D3FF4 /* promise@3x.png in Resources */,
 				94712E921C448DBF000D3FF4 /* bannerCheck@2x.png in Resources */,
 				94E09DC31C43B26C0097EE9D /* iAgency22@2x.png in Resources */,
+				9443A3D61C464087004CA1BD /* CarServiceAgentVC.xib in Resources */,
+				9443A3DA1C4640D8004CA1BD /* AccidentCustodyVC.xib in Resources */,
 				94E09DC71C43B2850097EE9D /* acci22@2x.png in Resources */,
 				94E09DB21C439D9B0097EE9D /* BaseViewController.xib in Resources */,
 				94712E881C448D7F000D3FF4 /* checkYear@3x.png in Resources */,
 				94E09DC01C43B2570097EE9D /* checkCar22@3x.png in Resources */,
+				9443A3E81C464702004CA1BD /* PersonalCenterVC.xib in Resources */,
 				94E09DCB1C43B29B0097EE9D /* NewActive22@2x.png in Resources */,
+				9443A3E41C464484004CA1BD /* userCenter@2x.png in Resources */,
 				94E09DBF1C43B2570097EE9D /* checkCar22@2x.png in Resources */,
 				94E09DBB1C43A5D10097EE9D /* HomeViewController.xib in Resources */,
 				94712E871C448D7F000D3FF4 /* checkYear@2x.png in Resources */,
 				94712E8B1C448D95000D3FF4 /* promise@2x.png in Resources */,
+				9443A3E11C464323004CA1BD /* tss_nav_left_detail@2x.png in Resources */,
+				9443A3DE1C46410B004CA1BD /* LatestActivitiesVC.xib in Resources */,
+				9443A3E21C464323004CA1BD /* tss_nav_left_detail@3x.png in Resources */,
 				94E09DCC1C43B29B0097EE9D /* NewActive22@3x.png in Resources */,
 				94E09DC81C43B2850097EE9D /* acci22@3x.png in Resources */,
 				94712E9D1C44F02E000D3FF4 /* logoNew@2x.png in Resources */,
 				94712E9E1C44F02E000D3FF4 /* logoNew@3x.png in Resources */,
 				94E09DC41C43B26C0097EE9D /* iAgency22@3x.png in Resources */,
 				94E09DA51C439A650097EE9D /* Assets.xcassets in Resources */,
+				9443A3D21C464025004CA1BD /* AnnualVehicleVC.xib in Resources */,
 				94712E901C448DA7000D3FF4 /* shareHasPresent@2x@3x.png in Resources */,
 				94E09DA31C439A650097EE9D /* Main.storyboard in Resources */,
 			);
@@ -356,9 +403,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9443A3E71C464702004CA1BD /* PersonalCenterVC.swift in Sources */,
 				94E09DBA1C43A5D10097EE9D /* HomeViewController.swift in Sources */,
+				9443A3D51C464087004CA1BD /* CarServiceAgentVC.swift in Sources */,
 				94E09DA01C439A650097EE9D /* ViewController.swift in Sources */,
 				94E09D9E1C439A650097EE9D /* AppDelegate.swift in Sources */,
+				9443A3DD1C46410B004CA1BD /* LatestActivitiesVC.swift in Sources */,
+				9443A3D91C4640D8004CA1BD /* AccidentCustodyVC.swift in Sources */,
+				9443A3D11C464025004CA1BD /* AnnualVehicleVC.swift in Sources */,
 				94712E991C44A40C000D3FF4 /* UIKitClass.swift in Sources */,
 				94E09DB61C439E340097EE9D /* NetRequestManage.swift in Sources */,
 				94E09DB11C439D9B0097EE9D /* BaseViewController.swift in Sources */,

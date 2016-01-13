@@ -93,6 +93,16 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         
         // Do any additional setup after loading the view.
     }
+    
+    
+    override func rightNavBtnAction() {
+        
+        let vc = PersonalCenterVC()
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    
 
     func tapBanberAction(tap: UITapGestureRecognizer){
     
@@ -143,6 +153,52 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return rowHeight+10
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        switch indexPath.row
+        {
+            case 0:
+            
+                
+                let vc = AnnualVehicleVC()
+                self.navigationController?.pushViewController(vc, animated: true)
+                
+            
+                break
+            
+            case 1:
+            
+                let vc = CarServiceAgentVC()
+                self.navigationController?.pushViewController(vc, animated: true)
+                
+            
+                break
+        
+            case 2:
+                
+                let vc = AccidentCustodyVC()
+                self.navigationController?.pushViewController(vc, animated: true)
+            
+            
+                break
+            
+            case 3:
+                
+                let vc = LatestActivitiesVC()
+                self.navigationController?.pushViewController(vc, animated: true)
+            
+            
+                break
+            
+        default:
+            
+            break
+        }
+        
+    }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
